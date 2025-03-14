@@ -9,14 +9,15 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "pre-deploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "pre-deploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "firebase": "^11.3.1",
+    "gh-pages": "^6.3.0",
     "loader-spinner": "^1.0.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
