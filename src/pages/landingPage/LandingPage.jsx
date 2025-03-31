@@ -60,7 +60,7 @@ const LandingPage = () => {
           const { item_img } = eachImage;
           return (
             <div key={item_img}>
-              <img src={item_img} alt={item_img} width="100%" />
+              <img src={`https://venkatatrinadh4444.github.io/swiggy-clone${item_img}`} alt={item_img} width="100%" />
             </div>
           );
         })}
